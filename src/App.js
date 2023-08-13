@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react';
+import Header from './components/Header';
+import RefForm from './components/RefForm/AddForm';
+import References from './components/References/References';
 
 function App() {
+
+  const [showForm, setForm] = useState(false);
+  const toggleForm = () => setForm(!showForm);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={`${ showForm ? 'overflow-hidden h-[100vh]' : ''}`}>
+      <RefForm showForm={ showForm } setForm = { toggleForm } />
+      <div className={`min-h-screen bg-neutral-700 text-neutral-200`}>
+        <Header setForm={ toggleForm } />
+        <References />
+      </div>
     </div>
   );
 }

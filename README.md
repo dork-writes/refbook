@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# REFBOOK
+Have trouble remembering something you wanted to visit later on the web? Use REFBOOK!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Why I Created This?
+I am a college student and with my college studies, I am specializing in Web Development in React.js. I have to remember many topics to learn and where to find resources for them on the web. I often have to surf the web all over again because I cannot juggle this information and looking for something in history is very frustrating. That's why I created REFBOOK; it stores this information for me. 
 
-## Available Scripts
+## Usage
+### 1. When I need to go to a topic, I can:
+    1. Search the reference for it using the searchbar at the very top and / or find the reference.
+    2. Click on 'Go to Ref' button
 
-In the project directory, you can run:
+### 2. When I need to create a reference, I can:
+    1. Click on the 'Add a reference' button.
+    2. Enter the details in the form.
+    3. Click on 'Save' button to add, or 'Cancel' to cancel.
 
-### `npm start`
+### 3. When I want to edit a reference, I can:
+    1. Search for it using the searchbar at the top and / or find it.
+    2. Click on 'Edit' button on the bottom right of the reference card.
+    3. Enter the details in the form.
+    4. Click on 'Save' button to save changes, or 'Cancel' to cancel edit.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 4. When I want to delete a reference, I can:
+    1. Search for it using the searchbar at the top and / or find it.
+    2. Click on 'Delete' button on the bottom right of the reference card.
+    3. Click on 'Yes' button to delete, or 'No' to cancel.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## What's Coming Next?
+```Javascript
+Draggable References
