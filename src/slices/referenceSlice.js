@@ -51,8 +51,12 @@ export const referenceSlice = createSlice({
 
     setReferences: (state) =>
     {
-      state.dbReferences = JSON.parse(localStorage.getItem('refs'));
-      state.references = state.dbReferences;
+      if (localStorage.getItem('refs'))
+      {
+        state.dbReferences = JSON.parse(localStorage.getItem('refs'));
+        state.references = state.dbReferences;
+      }
+
       state.loading = false;
     },
 
